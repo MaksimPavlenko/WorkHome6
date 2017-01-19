@@ -1,0 +1,586 @@
+
+body{
+	list-style-type: none;
+}
+
+/* ============================================ header-top ============================= */
+.block-main-center{
+	width: 910px;
+	margin: 0 auto;
+}
+.header-top{	
+	width: 910px;
+	margin: 20px auto 0 auto;
+	background-color: #fff;
+}
+.block-phone{
+	width: 305px;
+	float: left;
+	margin-left: 5px;
+	padding: 0 5px; 
+}
+.phone{
+	float: left;
+	margin-right: 5px;
+	padding: 5px 0;
+	vertical-align: middle;
+	color: #bfbfbf;
+}
+.namber{
+	margin-right: 5px;
+	padding: 5px 0;
+	font-size: 18px;
+	letter-spacing: -1px;
+	color: #bfbfbf;
+}
+.registracia{
+	float: left;
+	margin: 0 5px;
+	padding: 5px;
+	background-color: #1a5879;
+	border-radius: 6px;
+	-webkit-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	-moz-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+}
+.img-left{
+	float: left;
+	padding: 0 5px;
+}
+
+.login{
+	float: left;
+	width: 114px;
+	margin-right: 7px;
+}
+.kod{
+	float: left;
+	width: 114px;
+}
+
+.password{
+	float: left;
+	
+}
+.vhod{
+	float: left;
+	margin: 0 5px 0 10px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 10px;
+}
+.reg{
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.zabuli-parol{
+	float: left;
+	padding-left: 5px; 
+	font-size: 10px;
+	text-decoration: underline;
+}
+.home{
+	width: 75px;
+	float: left;
+	padding-left: 15px;
+	vertical-align: middle;
+	padding-top: 5px;
+
+}
+/* ============================================ header-bottom ============================= */
+
+.header-bottom{
+	margin-bottom: -40px;
+}
+.header-bottom img{
+	margin: 10px auto 0 auto;
+	width: 100%;
+	height: 235px;	
+}
+
+my-slider{
+	
+}
+	.my-slider ul li{
+	
+	}
+	.unslider{
+		
+	}
+	.unslider-nav{
+		max-width: 910px; margin:0 auto; position:relative; top:-30px;
+	}
+
+.header-menu-backraund{
+	width: 910px;
+	margin-bottom: 10px; 
+	background-color: #0a0b0c ;
+	border-radius: 6px;
+	-webkit-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	-moz-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+}
+.header-menu{
+	width: 560px;
+	height: 44px;
+	padding-left: 85px;
+	padding-right: 20px;
+	float: left;   
+	font-size: 13px;
+}
+	
+	.header-menu li{
+		float: left; 
+		font-weight: 600;
+		list-style-type: none;
+	}
+	.header-menu a{
+		color: #656363; 
+		text-decoration: none; 
+	}
+	.header-menu li a{
+		color: #b1bcc0; 
+		text-decoration: none; 
+		padding: 12px 16px;
+		display: block; 
+		border: 1px solid transparent;
+	}
+	.header-menu li a:hover{
+		background-color: #13486b;
+		color: #fff;
+		border-radius: 20px;
+		-webkit-transition: color 1s, background-color 1s;
+        -o-transition: color 1s, background-color 1s;
+        -moz-transition: color 2s, background-color 1s;
+        transition: color 1s, background-color 1s;
+	}
+.block-tovar-summa {
+	 padding-top: 12px;
+}
+.karzina{
+	float: left;
+}
+.tovar{
+	float: left;
+	color: #bfbfbf;
+	margin-left: 10px;
+}
+.summa{
+	float: left;
+	color: #bfbfbf;
+	margin-left: 10px;
+}
+.color-blu{
+	color: #0d5587;
+}
+
+/* ============================================ main-section ============================= */
+
+.main-section{
+	height: 134px;
+}
+.block-poisk-avto{
+	height: 134px;
+	width: 412px;
+	float: left;
+	border: 1px solid #c4c4c4;
+	border-radius: 20px;
+	-webkit-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	-moz-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+}
+	.p-left1{
+		float: left;
+		padding-left: 10px;
+		font-size: 10px;	
+		font-weight: bold;
+	}
+	.p-left2{
+		float: left;
+		font-size: 12px;
+		font-weight: bold;
+		margin-left: 80px;
+	}
+	.p-left3{
+		float: left;
+		font-size: 10px;
+		font-size: 10px;
+		font-weight: bold;
+		margin-left: 80px;
+	}
+.block-danue-mashunu{
+	margin: 0;
+	padding: 0;
+}
+	.block-danue-mashunu{
+		float: left;
+	}
+	.avto select{
+		/*-webkit-appearance: none;*/
+	 	width: 100px;
+	 	/*line-height: 1;*/
+	}
+	
+		.marka{
+			float: left;
+			padding: 3px 15px 0 10px;
+			font-size: 10px;
+		}
+		.avto{
+			float: left;
+			margin-top: 3px;
+		    /* border: 1px solid #CCC; */
+		   /* overflow: hidden; 	 
+		    background-image: url(../images/strelka.png) no-repeat; */
+		    width: 90px;
+		}
+		.avto-color{
+			color: #89959a;
+		}
+
+.block-danue-right{
+	float: left;
+	/*margin-left: 20px;*/
+}
+.search{
+	float: right;
+	margin-right: 20px;
+	font-style: italic;
+	font-size: 14px;
+	color: #255071;
+	border-bottom: 2px solid #8aa1b3;
+}
+
+.block-poisk-shun{
+	height: 134px;
+	width: 190px;
+	float: left;
+	margin-left: 15px;
+	border: 1px solid #c4c4c4;
+	border-radius: 20px;
+	-webkit-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	-moz-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+}	
+.block-danue-mashunu-right{
+	float: left;
+	border-right: 2px solid #bdc6ca;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+	.poisk-shun{
+		padding-left: 10px;
+		margin-top: 0px;
+		font-size: 10px;	
+		font-weight: bold;
+	}
+	.dannue-shun{
+		padding-left: 15px;
+	}
+	.razmer{
+		float: left;
+		font-size: 10px;
+		margin-right: 15px;
+	}
+		.razmer-shun1{
+			float: left;
+		}
+		.razmer-shun1-1{
+			float: left;
+			margin-left: 10px;
+		}
+		.razmer-R{
+			float: left;
+			width: 45px;
+			margin-top: 5px;
+			margin-left: 30px;  
+		}
+		.sezon{
+			float: left;
+			left: 5px;
+		}
+		.sezon p{
+			font-size: 10px;
+			margin-right: 7px;
+		}
+		.p-left4{
+			float: left;
+			font-size: 10px;
+		}
+		.p-left4 input[type='checkbox'] {
+            margin-top: -4px; /* уменьшите на свой вкус  */
+            margin-bottom: -2px; /* здесь тоже */
+  		}
+.block-poisk-diskov{
+	height: 134px;
+	width: 277px;
+    margin-left: 10px;
+	float: left;
+	border: 1px solid #c4c4c4;
+	border-radius: 20px;
+	-webkit-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	-moz-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+}
+
+
+	.block-danue-DCO{
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		font-size: 8px;
+		font-weight: 500;
+		line-height: 10px;
+	}
+	.dco-color{
+		color: #89959a;
+		line-height: 9px;
+		margin-top: -3px;
+	}
+	.dco-select{
+		margin-top: 1px;
+	}
+
+/* ============================================ block-main ============================= */
+.block-main{
+	top: 10px;
+	max-width: 910px;
+	height: 654px;
+	margin: 0 auto;
+	position: relative;
+	/*background-color:  #8BC34A;*/
+}
+	.saidbar-left{
+		height: 100%;
+		float: left;
+		width: 180px;
+		margin-right: 10px;
+		background-color: ;
+	}
+	.saidbar-left ul li a{
+		list-style-type: circle;
+		display: block;
+	}
+	.content{
+		height: 100%;
+		width: 530px;
+		float: left;
+		margin: 0 auto;
+		margin-right: 10px;
+		background-color: #c9d1d5;
+		
+	}
+	.saidbar-right{
+		height: 100%;
+		float: left;
+		width: 180px;
+		background-color: ;
+	}
+
+	.Goodyer{
+		width: 137px;
+		margin: 15px 30px 30px 23px;
+		float: left;
+		text-align: center;
+	}
+	.Goodyer h3{
+		font-size: 14.6px;
+		color: #206988;
+	}
+	.Goodyer h4{
+		font-size: 12.77px;
+		color: #1f2528;
+	}
+	.Nokian{
+		width: 137px;
+		margin: 15px 30px 30px 0px;
+		text-align: center;
+		float: left;
+	}
+	.Nokian h3{
+		font-size: 14.6px;
+		color: #206988;
+	}
+	.Nokian h4{
+		font-size: 12.77px;
+		color: #1f2528;
+	}
+	.Hankook{
+		width: 137px;
+		margin: 15px 0 30px 0px;
+		text-align: center;
+		float: left;
+	}
+	.Hankook h3{
+		font-size: 14.6px;
+		color: #206988;
+	}
+	.Hankook h4{
+		font-size: 12.77px;
+		color: #1f2528;
+	}
+	.cena{
+		font-size: 16px;
+		color: #114165;
+	}
+
+.saidbar-left{
+	
+}
+	.catalog{
+		width: 179px;
+		border: 1px solid #949fa4;
+		border-radius: 20px;
+		-webkit-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+		-moz-box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+		box-shadow: 18px 20px 7px -15px rgba(0,0,0,0.64);
+	}
+		.catalog-img{
+			float: left;
+			padding: 2px 4px 3px 3px;
+			vertical-align: middle;
+		}
+		.catalog-img img{
+			width: 20px;
+		}
+		.catalog-p{
+		font-size: 12px;
+		color: #114165;
+		padding: 0.2em 0;
+		}
+
+	.catalog-shun{	
+		width: 150px;
+		margin-top: 15px;
+		border: 1px solid #949fa4;
+		border-radius: 20px;	
+	}
+	.catalog-shun-img{
+		float: left;
+		padding: 4px;
+	}
+	.block-ul{
+		margin-top: 10px;
+		text-align: center;
+	}
+	.block-u ul li{
+		list-style: circle;
+	}
+	.block-ul a{
+		font-size: 12px;
+		padding: 2px 0;
+		text-decoration: none;
+		color: #465961;
+		border-bottom-color: transparent;  
+	}
+	.block-ul a:hover{
+		border-bottom: 2px solid #486580;
+		font-size: 12px;
+		padding: 0px;
+		font-style: 'italic', sans-serif;
+		font-weight: ; 
+		text-decoration: none;
+		list-style-type: circle;
+	}
+
+.saidbar-right{
+
+}
+	.block-checkbox{
+			margin: 10px 0 0 25px;
+			float: left;
+			font-size: 12px;
+			color: #486580;
+		}
+		.otstyp-sprava{
+			padding-right: 5px; 
+		}
+		.block-checkbo input[type='checkbox']{
+            margin-top: 4px; 
+            margin-bottom: 2px;
+  		}
+		#raz{
+			padding: 10px;
+		}
+		.buton{
+			margin: 20px 0 0 25px;
+			padding: 12px 30px;
+			font-size: 11px;
+			color: #fff;
+			background-color: #0e3a5e;
+			border-radius: 20px;
+			border-width: 0;
+		}
+
+.footer-top{
+	width: 790px;
+ 	margin: 40px auto 20px auto;
+}
+.footer-top img{
+	padding: 0 15px;
+}
+
+.footer-top li{
+  	float: left;
+  	padding-left: 0 10px;
+}
+
+	.footer-top a{
+		color: #656363; 
+		list-style: none;
+	}
+	.footer-top li a{
+		color: #b1bcc0; 
+		list-style: none;
+		display: block; 
+		border: 1px solid transparent;
+	}
+
+.footer-bottom{
+	width: 910px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #213a4d;
+}
+	
+	.footer-bottom a{
+		text-decoration: none; 
+	}
+	.footer-bottom a:hover{
+
+	}
+	.footer-bottom-menu{
+		margin: 0 auto;
+	}
+
+	.footer-menu{
+	   width: 560px; 
+	   height: 30px;
+	   margin: 10px auto; 
+	}
+	.footer-menu ul{
+	   text-align: center;
+	}
+	.footer-menu ul li{
+	   list-style: none; 
+	   display: inline-block; /* вместо float: left; */
+	}
+	.footer-menu ul li a{
+		color: #b1bcc0;
+		margin-top: 12px;
+		border-right: 2px solid #b1bcc0;
+		padding: 0px 12px;
+		text-decoration: none; 
+	    display: block; /* делаем ссылки блочными */	
+	}
+	.footer-menu ul li a:hover{
+	   color: #52abcb;
+	}
+	h4{
+		font-size: 10px;
+		color: #7f4740;
+		text-align: center;
+	}

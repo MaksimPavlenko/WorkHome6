@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" href="css/unslider.css">
+	<link rel="stylesheet" href="css/unslider-dots.css">
+	<title>HomeWork6</title>
+</head>
+	<body>
+		<!--<header  class="header-top"; style=""> -->
+		<header class="header-top block-main-center clearfix">	
+			<div class="block-phone">
+				<p class="phone clearfix"><img src="images/phone.png" alt="phone" ></p>
+				<p class="namber clearfix"> (044)123-45-67 (044)567-89-10</p>
+			</div>
+			<div class="registracia">
+				<img src="images/avtorizacia.png" alt="phone" class="img-left">
+				 <form class="login clearfix">
+					<input type="text" class="login clearfix" placeholder="логин">	
+				</form>
+				<form action="" class="kod clearfix">
+					<input type="password" class="kod clearfix" placeholder="пароль">
+				</form> 
+				<p class="vhod">вход | </p>
+				<p class="reg"> регистрация</p>
+				<p class="zabuli-parol"><a href="#" style="	color: #bfbfbf;">забыли пароль?</a></p>
+			</div>
+			<p class="home"><img src="images/home.png"></p>
+		</header>
+
+		<header class="header-bottom block-main-center clearfix">		
+				<!--<img src="images/main-img.png">-->
+				<div class="my-slider center-block-main">
+					<ul>		
+			            <li><img src="images/main-img.png" alt=""></li>
+			            <li><img src="images/main-img.png" alt=""></li>
+			            <li><img src="images/main-img.png" alt=""></li>
+					</ul>
+				</div>
+		</header>
+
+		<header class="header-menu-backraund block-main-center clearfix">
+			<nav class="header-menu clearfix">
+				<ul class="menu">
+					<li><a href="#">О КОМПАНИИ</a></li>
+					<li><a href="#">ОПЛАТА</a></li>
+					<li><a href="#">ДОСТАВКА</a></li>
+					<li><a href="#">СТАТЬИ</a></li>
+					<li><a href="#">КОНТАКТЫ</a></li>
+				</ul>					
+			</nav>
+			<div class="block-tovar-summa clearfix">
+				<p class="karzina"><img src="images/karzina.png" alt="karzina" title=""/></p>
+			    <p class="tovar">товар:<span class="color-blu">0</span></p>
+			    <p class="summa">на сумму:<span class="color-blu">0,00 грн</span></p>
+			</div>
+		</header>
+
+		<section class="main-section block-main-center clearfix">
+			<article class="block-poisk-avto">
+				<div style="margin-bottom: -5px;">
+					<p class="p-left1 color-blu">Диски:</p>
+					<h3 class="p-left2 color-blu">Поиск по автомобилю</h3>
+					<p class="p-left3 color-blu">Шины:</p>
+				</div>
+				<div class="block-danue-mashunu">
+					<div class="block-danue-mashunu-left">	
+						<form action="select1.php" method="post"  style="">
+						   <p class="marka clearfix">Марка <span class="avto-color">авто:</span></p>
+						   
+						   <p class="avto  clearfix">
+						   		<select name="avto">
+							   		<option value="s" selected></option>
+								    <option value="s1" >Mercedes</option>
+								    <option value="s2" >Audi</option>
+								    <option value="s3" label="BMV">BMV</option>
+							    </select>    
+						    </p>
+						   
+						    <div class="clear"></div>
+						    <p class="marka clearfix" style="line-height: 10px">Модель</br><span class="avto-color">автомобиля:</span></p>
+						    <p class="avto clearfix">
+						   		<select name="auto">
+							   		<option value="s" selected></option>
+								    <option value="s1">Mercedes</option>
+								    <option value="s2">Audi</option>
+								    <option value="s3" label="BMV">BMV</option>
+							    </select>    
+						    </p>
+						    <div class="clear"></div>
+						    <p class="marka clearfix" style="line-height: 10px">Год выпуска</br><span class="avto-color">автомобиля:</span></p>
+						    <p class="avto clearfix">
+						   		<select name="avto" style="width: 50px">
+							   		<option value="s" selected></option>
+								    <option value="s1">Mercedes</option>
+								    <option value="s2">Audi</option>
+								    <option value="s3" label="BMV">BMV</option>
+							    </select>    
+						    </p>
+						     <div class="clear"></div>
+						    <p class="marka clearfix" style="margin-right: -1px;">Комплектация:</p>
+						    <p class="avto clearfix">
+						   		<select name="auto" style="margin-left: -12px">
+							   		<option value="s" selected></option>
+								    <option value="s1">Mercedes</option>
+								    <option value="s2" >Audi</option>
+								    <option value="s3" label="BMV">BMV</option>
+							    </select>    
+						    </p>
+						</form>					
+					</div>			
+				</div>
+
+				<div class="block-danue-right">
+					<div class="block-danue-mashunu-left">	
+						<form action="" method="post"  style="">
+						   <p class="marka clearfix">Марка <span class="avto-color">авто:</span></p>
+						   
+						   <p class="avto  clearfix">
+						   		<select name="avto">
+							   		<option value="s" selected></option>
+								    <option value="s1">Mercedes</option>
+								    <option value="s2" >Audi</option>
+								    <option value="s3" label="BMV">BMV</option>
+							    </select>    
+						    </p>
+						   
+						    <div class="clear"></div>
+						    <p class="marka clearfix" style="line-height: 10px">Модель</br><span class="avto-color">автомобиля:</span></p>
+						    <p class="avto clearfix">
+						   		<select name="auto">
+							   		<option value="s" selected></option>
+								    <option value="s1">Mercedes</option>
+								    <option value="s2">Audi</option>
+								    <option value="s3" label="BMV">BMV</option>
+							    </select>    
+						    </p>
+						    <div class="clear"></div>
+						    <p class="marka clearfix" style="line-height: 10px">Год выпуска</br><span class="avto-color">автомобиля:</span></p>
+						    <p class="avto clearfix">
+						   		<select name="avto" style="width: 50px">
+							   		<option value="s" selected></option>
+								    <option value="s1">Mercedes</option>
+								    <option value="s2">Audi</option>
+								    <option value="s3" label="BMV">BMV</option>
+							    </select>    
+						    </p>
+						    <div class="clear"></div>
+						    <p class="marka clearfix" style="">Комплектация:</p>
+						    <p class="avto clearfix">
+						   		<select name="auto" style="margin-left: -12px">
+							   		<option value="s" selected></option>
+								    <option value="s1">Mercedes</option>
+								    <option value="s2">Audi</option>
+								    <option value="s3" label="BMV">BMV</option>
+							    </select>    
+						    </p>
+						</form>					
+					</div>			
+				</div>
+				<div class="clear"></div>
+				<p class="search" style="margin-top: 2px;">ПОИСК...</p>		
+			</article>
+			
+			<aside class="block-poisk-shun">
+				<p class="poisk-shun color-blu">ПОИСК ШИН</p>
+				<div class="dannue-shun">
+					<p class="razmer">Размер:</p>
+					<div class="razmer-shun1">
+						<select name="auto" style="margin-left: -12px">
+					   		<option value="s">147</option>
+						    <option value="s1">146</option>
+						    <option value="s2" selected>145</option>
+		   	 			</select> 
+					</div>
+					<p style="float: left; margin: 0 5px">/</p>	
+					<div class="razmer-shun1-1 clearfix">
+						<select name="auto" style="margin-left: -12px">
+					   		<option value="s"></option>
+						    <option value="s1"></option>
+						    <option value="s2" selected></option>
+		   	 			</select> 
+					</div>
+					<div class="razmer">
+					<p class="razmer-R">R</p>
+						<select name="auto" style="margin-left: -2.2em; float: left; margin-top: 5px; ">
+					   		<option value="s">12</option>
+						    <option value="s1">13</option>
+		   	 			</select> 
+					</div>
+					<div class="clear"></div>
+					<div class="sezon"><p>Сезон:</p></div>
+					<p class="p-left4">
+					     <input type="checkbox" name="option3" value="a3">лето<Br> 
+					     <input type="checkbox" name="option4" value="a4">зима<Br> 
+					     <input type="checkbox" name="option5" value="a5">всесез
+				  	</p>
+				  	<div class="clear"></div>
+				  	<p class="search" style="margin-top: -4px;">ПОИСК...</p>
+
+				</div>		
+			</aside>
+
+			<aside class="block-poisk-diskov">
+				
+				<!--<div class="dannue-shun"> -->
+				<div class="block-danue-mashunu-right">	
+				<p class="poisk-shun color-blu">ПОИСК ДИСКОВ</p>
+					<form action="select1.php" method="post"  style="">
+					   <p class="marka " style="margin-top: -5px">Диаметр <span class="avto-color">диска:</span></p>   
+					   <p class="">
+					   		<select name="avto" style="width: 55px; margin-left: -8px">
+							    <option value="s1">11</option>
+							    <option value="s2" selected>14</option>
+							    <option value="s3" label="">12</option>
+						    </select>    
+					    </p>		   
+					    <div class="clear"></div>
+					    <p class="marka clearfix" style="line-height: 9px">Количество</br><span class="avto-color">крепёжных</br>отверстий:</span></p>
+					    <p class="avto clearfix">
+					   		<select name="avto" style="width: 50px; margin-left: 13px">
+							    <option value="s1">1</option>
+							    <option value="s2" selected>3</option>
+							    <option value="s3" label="2">2</option>
+						    </select>    
+					    </p>
+					    <div class="clear"></div>
+					    <p class="marka clearfix" style="line-height: 9px">Диаметр</br><span class="avto-color">расположкния</br>крепёжных</br>отверстий:</span></p>
+					    <p class=" clearfix">
+					   		<select name="avto" style="width: 55px">
+							    <option value="s1">10</option>
+							    <option value="s2" selected>12</option>
+							    <option value="s3" label="">11</option>
+						    </select>    
+					    </p>
+					     <div class="clear"></div>		    
+					</form>
+				</div>
+
+				<div class="block-danue-DCO">
+					<p class="block-danue-DCO">ДЦО</p>
+					<p class="dco-color"><span class="" style="">(диаметр</br>центрального</br>отверстия):</span></p>
+					<form action="">
+						 <p class="dco-select clearfix">
+					   		<select name="auto" style="margin-left: 0px">
+						   		<option value="s">14</option>
+							    <option value="s1">13</option>
+							    <option value="s2" selected>12</option>
+						    </select>    
+					    </p>
+					    <p class="block-danue-DCO" style="line-height: 9px">ET</p>
+					<p class="dco-color"><span class="avto-color">(выплата):</span></p>
+					</form>
+					<form action="">
+						 <p class="dco-select clearfix">
+					   		<select name="auto" style="margin-left: 0px">
+						   		<option value="s">14</option>
+							    <option value="s1">13</option>
+							    <option value="s2" selected>12</option>
+						    </select>    
+					    </p>
+					</form>
+				</div>			
+				  	<div class="clear"></div>
+				  	<p class="search" style="margin-top: px;">ПОИСК...</p>
+
+				</div>		
+			</aside>
+		</section>
+		
+		<main class="block-main">
+			<aside class="saidbar-left">
+				<div class="catalog">
+					<p class="catalog-img"><img src="images/catalog.png" alt=""></p>
+					<p class="catalog-p">КАТАЛОГ ПРОДУКЦИИ:</p>
+				</div>
+				<div class="clear"></div>
+			
+				<div class="catalog-shun">
+					<p class="catalog-img"><img src="images/catalog-shun.png" alt=""></p>
+					<p class="catalog-p">ШИНЫ</p>
+				</div>
+				<div class="block-ul">
+					<ul type="circle"">
+						<a href="#"><l1 style="list-style-type:circle">Наименование 1</l1></a>
+						<a href="#"><l1>Наименование 2</l1></a>
+						<a href="#"><l1>Наименование 3</l1></a>
+						<a href="#"><l1>Наименование 4</l1></a>
+						<a href="#"><l1>Наименование 5</l1></a>
+					</ul>
+				</div>
+
+				<div class="catalog-shun">
+					<p class="catalog-img"><img src="images/catalog-shun.png" alt=""></p>
+					<p class="catalog-p">ДИСКИ</p>
+				</div>
+				<div class="block-ul">
+					<ul type="circle"">
+						<a href="#"><l1>Наименование 1</l1></a>
+						<a href="#"><l1>Наименование 2</l1></a>
+						<a href="#"><l1>Наименование 3</l1></a>
+						<a href="#"><l1>Наименование 4</l1></a>
+						<a href="#"><l1>Наименование 5</l1></a>
+					</ul>
+				</div>
+
+				<div class="catalog-shun">
+					<p class="catalog-img"><img src="images/catalog-shun.png" alt=""></p>
+					<p class="catalog-p">БОЛТЫ</p>
+				</div>
+				<div class="block-ul">
+					<ul type="circle"">
+						<a href="#"><l1>Наименование 1</l1></a>
+						<a href="#"><l1>Наименование 2</l1></a>
+						<a href="#"><l1>Наименование 3</l1></a>
+						<a href="#"><l1>Наименование 4</l1></a>
+						<a href="#"><l1>Наименование 5</l1></a>
+					</ul>
+				</div>
+			</aside>
+
+			<section class="content">
+				<div class="Goodyer">
+					<h3>Goodyer</h3>
+					<h4>Ultra Grip Extreme</h4>
+					<p><img src="images/shuna1.png" alt=""></p>
+					<p class="cena">90.00 грн.</p>
+				</div>
+				<div class="Nokian">
+					<h3>Nokian</h3>
+					<h4>Hakkapeliitta R</h4>
+					<p><img src="images/shuna2.png" alt=""></p>
+					<p class="cena">115.00 грн.</p>
+				</div>
+				<div class="Hankook">
+					<h3>Hankook</h3>
+					<h4>K 708 155/65 R14</h4>
+					<p><img src="images/shuna3.png" alt=""></p>
+					<p class="cena">393.00 грн.</p>
+				</div>
+				<div class="clear"></div>
+
+				<div class="Goodyer" style="margin-top: 0px">
+					<h3>Goodyer</h3>
+					<h4>Ultra Grip Extreme</h4>
+					<p><img src="images/shuna1.png" alt=""></p>
+					<p class="cena">90.00 грн.</p>
+				</div>
+				<div class="Nokian" style="margin-top: 0px">
+					<h3>Nokian</h3>
+					<h4>Hakkapeliitta R</h4>
+					<p><img src="images/shuna2.png" alt=""></p>
+					<p class="cena">115.00 грн.</p>
+				</div>
+				<div class="Hankook" style="margin-top: 0px">
+					<h3>Hankook</h3>
+					<h4>K 708 155/65 R14</h4>
+					<p><img src="images/shuna3.png" alt=""></p>
+					<p class="cena">393.00 грн.</p>
+				</div>
+				<div class="clear"></div>
+
+				<div class="Goodyer" style="margin-top: 0px">
+					<h3>Goodyer</h3>
+					<h4>Ultra Grip Extreme</h4>
+					<p><img src="images/shuna1.png" alt=""></p>
+					<p class="cena">90.00 грн.</p>
+				</div>
+				<div class="Nokian" style="margin-top: 0px">
+					<h3>Nokian</h3>
+					<h4>Hakkapeliitta R</h4>
+					<p><img src="images/shuna2.png" alt=""></p>
+					<p class="cena">115.00 грн.</p>
+				</div>
+				<div class="Hankook" style="margin-top: 0px">
+					<h3>Hankook</h3>
+					<h4>K 708 155/65 R14</h4>
+					<p><img src="images/shuna3.png" alt=""></p>
+					<p class="cena">393.00 грн.</p>
+				</div>
+				<div class="clear"></div>		
+			</section>
+			
+			<aside class="saidbar-right">
+				<div class="catalog">
+					<p class="catalog-img"><img src="images/catalog.png" alt=""></p>
+					<p class="catalog-p">БРЕНДЫ:</p>
+				</div>
+				<div class="clear"></div>
+
+				<div class="catalog-shun">
+					<p class="catalog-img"><img src="images/catalog-shun.png" alt=""></p>
+					<p class="catalog-p">ШИНЫ</p>
+				</div>
+				<p class="block-checkbox">
+					     <input type="checkbox" name="option3" value="a3"><span class="otstyp-sprava">Бренд 1</span><Br> 
+					     <input type="checkbox" name="option4" value="a4">Бренд 2<Br> 
+					     <input type="checkbox" name="option5" value="a5">Бренд 3
+				</p>
+				<div class="clear"></div>
+				<div class="catalog-shun">
+				<p class="catalog-img"><img src="images/catalog-shun.png" alt=""></p>
+				<p class="catalog-p">ДИСКИ</p>
+				</div>
+				<p class="block-checkbox" style="">
+				    <input type="checkbox" name="option3" value="a3" id="raz"><label for="raz">Бренд 1</label><Br> 
+				    <input type="checkbox" name="option4" value="a4">Бренд 2<Br> 
+				    <input type="checkbox" name="option5" value="a5">Бренд 3
+				</p>
+				<div class="clear"></div>
+				<button class="buton">ВЫБРАТЬ</button>
+			</aside>
+		</main>
+		<div class="clear"></div>
+		<footer class="footer-top">
+			<img src="images/img1.png" alt="">
+			<img src="images/img2.png" alt="">
+			<img src="images/img3.png" alt="">
+			<img src="images/img4.png" alt="">
+			<img src="images/img5.png" alt="">
+			<img src="images/img6.png" alt="">
+			<img src="images/img7.png" alt="">
+			<img src="images/img8.png" alt="">
+		</footer>	
+		<footer class="footer-bottom">
+			<div class="footer-menu clearfix">
+				<ul>
+				   <li><a href="#">О компании</a></li>
+				   <li><a href="#">Доставка</a></li>
+				   <li><a href="#">Статьи</a></li>
+				   <li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<h4>Создание сайта &copy; Global Vision</h4>
+		</footer>
+
+<!-- =================== подключаем слайдер =================== -->
+<script src="js/jquery-2.1.4.js" type="text/javascript"></script> 
+<script src="js/unslider-min.js"></script>
+<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider({
+				autoplay:true,
+				arrows:false,
+				speed: 1050,
+				keys: true
+			});
+		});
+</script>
+	</body>
+</html>
